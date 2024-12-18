@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/Service.css">
+    <style>
+        .Service {
+            background-image: url('background2.jpg'); /* Replace with your image path */
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            margin: 0; /* Remove default margins */
+        }
+
+        /* Additional styles for text overlay on image */
+        .image-container {
+            position: relative;
+            text-align: center;
+            color: white;
+        }
+
+        .image-container img {
+            width: 100%;
+            height: auto;
+        }
+
+        .text-box {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 20px;
+        }
+
+        /* Zoom effect */
+        body {
+            transform: scale(1.1); /* Change this value to zoom in or out */
+            transform-origin: top left; /* Keep the zoom from top-left */
+        }
+    </style>
+    <title>Service</title>
+</head>
+<body>
+    <header>
+        <h2 class="name"></h2>
+        <nav>
+            <a href="index.html" class="active">Home</a>
+            <a href="Service.html">Service</a>
+            <a href="About.html">About</a>
+            <a href="Family.html">Family</a>
+            <a href="Contact.html">Contact</a>
+        </nav>
+    </header>
+    <section class="Service">
+        <div class="content">
+            <h1>My Services</h1>
+            <ul>
+                <li>MOBILE APP DEVELOPMENT
+                    <ul>
+                        <li>Designing and developing basic mobile applications.</li>
+                        <li>Debugging and testing apps.</li>
+                        <li>Prototyping app ideas for businesses or personal use.</li>
+                    </ul>
+                </li>
+
+                <li>Graphic Design and Multimedia
+                    <ul>
+                        <li>Designing logos, banners, and promotional materials</li>
+                        <li>Editing videos and creating animations</li>
+                        <li>Creating user-friendly interfaces (UI/UX design)</li>
+                    </ul>
+                </li>
+
+                <li>Web Development
+                    <ul>
+                        <li>Creating personal or business websites</li>
+                        <li>Updating or maintaining existing websites</li>
+                        <li>Implementing e-commerce functionality</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </section>
+</body>
+</html>

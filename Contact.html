@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/Contact.css">
+    <style>
+        /* Same background and header as the home page */
+        .contact {
+            background-image: url('Contact.jpg'); /* Replace with your image path */
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            margin: 0; /* Remove default margins */
+        }
+
+        header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1rem 3rem;
+            background: rgba(0, 0, 0, 0.6);
+            z-index: 100;
+        }
+
+        .name {
+            font-size: 2.5rem;
+            color: #F5F5DC;
+            font-weight: 800;
+            cursor: pointer;
+            transition: 0.5s ease;
+        }
+
+        .name:hover {
+            transform: scale(1.1);
+        }
+
+        nav {
+            display: flex;
+            gap: 20px;
+        }
+
+        nav a {
+            color: white;
+            font-size: 1.5rem;
+            text-decoration: none;
+            transition: 0.3s ease;
+            border-bottom: 3px solid transparent;
+        }
+
+        nav a:hover {
+            color: #F5F5DC;
+            border-bottom: 3px solid #F5F5DC;
+        }
+
+        nav a.active {
+            color: #F5F5DC;
+            font-weight: bold;
+            border-bottom: 3px solid #F5F5DC;
+        }
+
+        .contact-content {
+            padding: 80px 20px; /* Offset for fixed header */
+            text-align: center;
+            color: white;
+        }
+
+        .contact-content h1 {
+            font-size: 3rem;
+        }
+
+        .contact-content p {
+            font-size: 1.2rem;
+        }
+
+        /* Style for social media icons */
+        .social-media a {
+            color: white;
+            font-size: 2rem;
+            margin: 0 10px;
+            transition: color 0.3s ease;
+        }
+
+        .social-media a:hover {
+            color: #F5F5DC;
+        }
+    </style>
+    <title>Contact</title>
+</head>
+<body class="contact">
+    <header>
+        <h2 class="name">JOHNY'S PORTFOLIO</h2>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="Service.html">Service</a>
+            <a href="About.html">About</a>
+            <a href="Family.html">Family</a>
+            <a href="Contact.html" class="active">Contact</a> <!-- Contact page is highlighted -->
+        </nav>
+    </header>
+
+    <section class="contact-content">
+        <h1>Contact Me</h1>
+        <p>If you wish to get in touch, feel free to reach out through any of the following means:</p>
+        
+        <!-- Example Contact Details -->
+        <div>
+            <h3>Email: <a href="mailto:olalojohnglenn@gmail.com">olalojohnglenn@gmail.com</a></h3>
+            <h3>Phone: +09072355197</h3>
+            <h3>Location: Mercedes, Camarines Norte</h3>
+        </div>
+
+        <!-- Social media links -->
+        <div class="social-media">
+            <a href="https://www.linkedin.com" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://github.com" target="_blank"><i class="fa-brands fa-github"></i></a>
+            <a href="https://twitter.com" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="https://www.instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+    </section>
+</body>
+</html>
